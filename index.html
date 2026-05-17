@@ -1,36 +1,268 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Document your founder journey, track wins and setbacks, and build your startup story one entry at a time">
-    <meta name="keywords" content="founder journal, startup journal, founder diary,, startup tracking, startup tracking, founder log, build in public, startup progress tracker, founder productivity, startup documentation, private founder journal">
-    <title>Founder’s Diary | Build & Log Your Startup Journey</title>
+<html lang="en" class="light">
 
-    <!-- OG -->
-    <!-- Basic -->
-        <meta property="og:title" content="Founder’s Diary | Build & Log Your Startup Journey">
-        <meta property="og:description"
-        content="Document your founder journey, track wins and setbacks, and build your startup story one entry at a time.">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://foundersdiary.eu.org">
-        <meta property="og:site_name" content="Founder’s Diary">
-    
-    <!-- Image - use a 1200x630 image for best results -->
-        <meta property="og:image" content="https://foundersdiary.eu.org/assets/images/favicon.png">
-        <meta property="og:image:alt" content="Founder’s Diary app login screen showing 'Log your journey. Build your story.'">
-    
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Document your founder journey, track wins and setbacks, and build your startup story one entry at a time" />
+    <meta name="keywords"
+        content="founder journal, startup journal, founder diary, startup tracking, founder log, build in public, startup progress tracker, founder productivity, startup documentation, private founder journal" />
+    <title>Founder's Diary | Build &amp; Log Your Startup Journey</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon_16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Founder's Diary | Build &amp; Log Your Startup Journey" />
+    <meta property="og:description"
+        content="Document your founder journey, track wins and setbacks, and build your startup story one entry at a time." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://foundersdiary.eu.org" />
+    <meta property="og:site_name" content="Founder's Diary" />
+    <meta property="og:image" content="https://foundersdiary.eu.org/assets/images/favicon.png" />
+    <meta property="og:image:alt" content="Founder's Diary app login screen" />
+
     <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Founder’s Diary | Build & Log Your Startup Journey">
-        <meta name="twitter:description"
-        content="Document your founder journey, track wins and setbacks, and build your startup story one entry at a time.">
-        <meta name="twitter:image" content="https://foundersdiary.eu.org/assets/images/favicon.png">
-    
-    <!-- Theme -->
-    <meta name="theme-color" content="#0A192F">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Founder's Diary | Build &amp; Log Your Startup Journey" />
+    <meta name="twitter:description"
+        content="Document your founder journey, track wins and setbacks, and build your startup story one entry at a time." />
+    <meta name="twitter:image" content="https://foundersdiary.eu.org/assets/images/favicon.png" />
+
+    <meta name="theme-color" content="#0A192F" />
+
+    <!-- Fonts — only font files, no framework -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/geist@1.3.0/dist/fonts/geist-sans/style.css" rel="stylesheet" />
+    <!-- Material Symbols — icon font only, not a UI library -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+
+    <!-- Site stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
-    
+
+    <!-- ── Navigation ──────────────────────────────────────────── -->
+    <nav class="nav" role="banner">
+        <div class="container nav__inner">
+            <a href="/" class="nav__logo" aria-label="Founder's Diary home">Founder's Diary</a>
+
+            <ul class="nav__links" role="list">
+                <li><a href="#features" class="nav__link nav__link--active">Features</a></li>
+            </ul>
+
+            <a href="#join-waitlist">
+                <button class="btn btn--primary" type="button">Join the Waitlist</button>
+            </a>
+        </div>
+    </nav>
+
+
+    <!-- ── Hero ────────────────────────────────────────────────── -->
+    <header class="hero" role="main">
+        <div class="hero__bg" aria-hidden="true">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB32WSvZT9MY-Lf1_yTmUR8yUumzDHyg1-tdpUPwMqU9rkw-6xdYvVpGSsz72VovITpDkwk-zFba3ExOdQBQ64Qr0pZ8lFV8rk7lGU8Mm4saQ9ZfXJ1mdpa6UwSSAmgWmpYj3QFMzjQaTWOnK2TayWpvutHIPLwcm-SK6lU_cQ_rBfvJtlIIkmkyB_9sHhPNzTuU6a45O0fQXCrA1q5Vi3F_OMCZjmg2C3PJq3GgTEvvRD4i1P4nE93FXvIH2mpWsUVVp5snGYESbdb"
+                alt="" />
+        </div>
+
+        <div class="hero__content">
+            <span class="hero__eyebrow">Private founder journal</span>
+            <h1 class="hero__headline">Document Your Founder Journey.<br>Build Your Story.</h1>
+            <p class="hero__sub">
+                The private journal built for founders to log decisions, track wins and setbacks, and turn every step of
+                building a startup into a story worth sharing.
+            </p>
+            <div class="hero__cta">
+                <a href="#join-waitlist">
+                    <button class="btn btn--primary btn--lg" type="button">Join the Waitlist</button>
+                </a>
+                <a href="#features">
+                    <button class="btn btn--ghost btn--lg" type="button">See How It Works</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ── Value propositions ────────────────────────────────────── -->
+    <section class="value" aria-labelledby="value-heading">
+        <div class="container">
+            <div class="value__grid">
+
+                <article class="value__card">
+                    <div class="value__icon-wrap" aria-hidden="true">
+                        <span class="icon icon--blue">psychology</span>
+                    </div>
+                    <h3 class="value__title">Decision Intelligence</h3>
+                    <p class="value__body">
+                        Analyze your past choices with structured data. Understand the "why" behind every pivot and
+                        success.
+                    </p>
+                </article>
+
+                <article class="value__card">
+                    <div class="value__icon-wrap" aria-hidden="true">
+                        <span class="icon icon--blue">history_edu</span>
+                    </div>
+                    <h3 class="value__title">Public / Private Narrative</h3>
+                    <p class="value__body">
+                        Write privately to reflect, then selectively publish updates to build your brand and attract
+                        investors.
+                    </p>
+                </article>
+
+                <article class="value__card">
+                    <div class="value__icon-wrap" aria-hidden="true">
+                        <span class="icon icon--blue">hub</span>
+                    </div>
+                    <h3 class="value__title">Network Growth</h3>
+                    <p class="value__body">
+                        Leverage your logged milestones to prove traction and momentum to potential partners and future
+                        hires.
+                    </p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ── Features ─────────────────────────────────────────────── -->
+    <section class="features" id="features" aria-labelledby="features-heading">
+        <div class="container">
+            <div class="features__stack">
+
+                <!-- Feature 1: Decision Log -->
+                <div class="feature-row">
+                    <div class="feature-row__text">
+                        <span class="feature-tag">Decision Engine</span>
+                        <h2 class="feature-title">Your Digital Decision Log</h2>
+                        <p class="feature-desc">
+                            Stop repeating mistakes. Our structured journaling prompts force you to articulate
+                            assumptions, expected outcomes, and risk levels for every major startup decision.
+                        </p>
+                        <ul class="feature-list" role="list">
+                            <li class="feature-list__item">
+                                <span class="icon icon--sm icon--blue" aria-hidden="true">check_circle</span>
+                                Risk assessment templates
+                            </li>
+                            <li class="feature-list__item">
+                                <span class="icon icon--sm icon--blue" aria-hidden="true">check_circle</span>
+                                Automated look-back reminders
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mock-card" aria-hidden="true">
+                        <div class="mock-card__header">
+                            <span class="mock-card__title">New Decision Entry</span>
+                            <span class="mock-card__date">Sept 24, 2024</span>
+                        </div>
+                        <div class="mock-card__body">
+                            <div class="mock-decision">
+                                <p class="mock-decision__label">Decision</p>
+                                <p class="mock-decision__text">Pivoting GTM strategy to enterprise focus</p>
+                            </div>
+                            <div class="mock-meta">
+                                <div class="mock-meta__cell">
+                                    <p class="mock-meta__label">Confidence</p>
+                                    <p class="mock-meta__value">85%</p>
+                                </div>
+                                <div class="mock-meta__cell">
+                                    <p class="mock-meta__label">Risk Level</p>
+                                    <p class="mock-meta__value mock-meta__value--accent">Medium</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Momentum tracker -->
+                <div class="feature-row feature-row--reverse">
+                    <div class="feature-row__text">
+                        <span class="feature-tag">Velocity Tracker</span>
+                        <h2 class="feature-title">Visualize Your Momentum</h2>
+                        <p class="feature-desc">
+                            The startup journey isn't linear. Founder's Diary maps your qualitative reflections against
+                            quantitative growth metrics to show you the true health of your company.
+                        </p>
+                        <div class="feature-stat">
+                            <div class="feature-stat__icon" aria-hidden="true">
+                                <span class="icon icon--green">trending_up</span>
+                            </div>
+                            <div>
+                                <p class="feature-stat__title">Founder Morale +12%</p>
+                                <p class="feature-stat__sub">Correlation found with consistent journaling</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mock-chart" aria-hidden="true">
+                        <div class="mock-chart__bars">
+                            <div class="mock-chart__bar" style="height: 20%"></div>
+                            <div class="mock-chart__bar" style="height: 35%"></div>
+                            <div class="mock-chart__bar" style="height: 30%"></div>
+                            <div class="mock-chart__bar mock-chart__bar--active" style="height: 65%"></div>
+                            <div class="mock-chart__bar" style="height: 45%"></div>
+                            <div class="mock-chart__bar mock-chart__bar--active" style="height: 85%"></div>
+                            <div class="mock-chart__bar" style="height: 70%"></div>
+                        </div>
+                        <div class="mock-chart__labels" aria-label="Days of the week">
+                            <span>Mon</span><span>Tue</span><span>Wed</span>
+                            <span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ── Final CTA ─────────────────────────────────────────────── -->
+    <section class="cta-section" id="join-waitlist">
+        <div class="container--narrow">
+            <h2 class="cta-section__headline">Ready to Turn Your Journey into a Strategic Asset?</h2>
+            <p class="cta-section__sub">
+                Join the exclusive cohort of founders using Founder's Diary to build smarter, faster, and more
+                transparently.
+            </p>
+            <div class="cta-section__form" role="form" aria-label="Waitlist signup">
+                <form action="" method="post">
+                    <input class="cta-section__input" type="email" placeholder="Enter your work email" aria-label="Work email address"
+                        autocomplete="email" required/>
+                        <br><br>
+                    <button class="btn btn--secondary btn--lg" type="submit">Join the Waitlist</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ── Footer ───────────────────────────────────────────────── -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <span class="footer__logo">Founder's Diary</span>
+                    <p class="footer__copy">© 2026 Founder's Diary. Built for the strategic founder.</p>
+                </div>
+                <nav class="footer__links" aria-label="Footer navigation">
+                    <a href="./privacy-policy/" class="footer__link">Privacy Policy</a>
+                    <a href="./terms-of-service/" class="footer__link">Terms of Service</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
